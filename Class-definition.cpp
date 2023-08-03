@@ -54,4 +54,6 @@ B bObj2(28);                 //error! do something takes a B,
                              // not an int and there is no implicit conversion
                              // from B to int
 
-doSomething(B(28)); uses the B constructor to explicitly convert, i.e., cast the int to a B for this call
+doSomething(B(28)); // uses the B constructor to explicitly convert, i.e., cast the int to a B for this call
+
+// Explicit constructors prevent the compiler from performing unexpected type conversions
